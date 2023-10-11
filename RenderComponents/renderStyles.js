@@ -338,4 +338,4 @@ function ConvertCssToReactNativeStyle(styleSheet) {
 }
 
 
-export { renderStyles, ConvertCssToReactNativeStyle };
+module.exports =  { renderStyles, ConvertCssToReactNativeStyle };

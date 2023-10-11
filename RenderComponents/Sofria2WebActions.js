@@ -388,4 +388,5 @@ const sofria2WebActions = {
     ],
 };
 
-export default sofria2WebActions;
+module.exports = {sofria2WebActions};
+

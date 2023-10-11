@@ -230,4 +230,4 @@ const renderers = {
     row: (content, id) => <TableWrapper key={`row_${id}`} style={{ flexDirection: "row" }}>{content}</TableWrapper>
 }
 
-export { renderers };
+module.exports = { renderers };

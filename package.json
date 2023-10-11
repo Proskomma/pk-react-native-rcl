@@ -3,5 +3,11 @@
     "react": "^18.2.0",
     "react-native": "^0.72.5",
     "react-native-reanimated-table": "^0.0.2"
-  }
+  },
+  "name": "pk-react-native-rcl",
+  "version": "0.1.2",
+  "description": "MIT licenced library for open react native component for proskomma",
+  "author": "Xenizio - Aillet Gabriel",
+  "license": "MIT"
+
 }
