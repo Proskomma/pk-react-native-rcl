@@ -48,4 +48,4 @@ function ReadingScreen({option, livre, bible, pk}) {
   );
 }
 
-export { ReadingScreen };
+module.exports = { ReadingScreen };
