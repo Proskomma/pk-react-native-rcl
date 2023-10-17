@@ -5,8 +5,9 @@
     "react-native-reanimated-table": "^0.0.2"
   },
   "name": "pk-react-native-rcl",
-  "version": "0.1.6",
+  "version": "0.1.10",
   "description": "MIT licenced library for open react native component for proskomma",
   "author": "Xenizio - Aillet Gabriel",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js"
 }

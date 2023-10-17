@@ -12,7 +12,7 @@ function transformStringToArray(str) {
   }
   return Array.from({ length: end - start + 1 }, (_, i) => start + i);
 }
-export default function SideViewVerseByVerse({ navigationFunction, toChange, bibles, book, pk }) {
+ function SideViewVerseByVerse({ navigationFunction, toChange, bibles, book, pk }) {
   const [widthdim, setWidth] = useState(Dimensions.get('window').width)
   const [height, setHeight] = useState(Dimensions.get('window').height - 40)
   const [outputs, setOutputs] = useState([])
@@ -203,3 +203,4 @@ export default function SideViewVerseByVerse({ navigationFunction, toChange, bib
 }
 
     
+module.exports = { SideViewVerseByVerse };

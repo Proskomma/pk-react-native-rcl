@@ -1,5 +1,5 @@
 import { SofriaRenderFromProskomma } from 'proskomma-json-tools';
-import actions from '../renderer/sideBySideRender';
+import actions from '../Sofria2ProskommaRenderFunctions/sideBySideRender';
 
 export function renderDocForSideBySide(documentResult, pk, livre, bible, textNumber) {
     let output = {};
