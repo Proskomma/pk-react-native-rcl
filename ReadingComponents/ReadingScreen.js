@@ -3,7 +3,7 @@ import React, { useState, useCallback, useEffect } from 'react';
 import { useDocumentQuery } from '../CustomHooks/useDocumentQuery';
 import renderDoc from '../RenderFunctions/renderDocuments';
 
-function ReadingScreen({option, livre, bible, pk}) {
+export function ReadingScreen({option, livre, bible, pk}) {
   const [data, setData] = useState([]);
   const [output, setOutput] = useState(null);
   const [documentResult, setDocResults] = useState(null)
@@ -48,4 +48,4 @@ function ReadingScreen({option, livre, bible, pk}) {
   );
 }
 
-module.exports = { ReadingScreen };
+module.exports =  {ReadingScreen};
